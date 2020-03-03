@@ -1,0 +1,8 @@
+# reactions file
+reactions.json
+
+# environment variables
+.env
+
+# node modules
+node_modules/

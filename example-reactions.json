@@ -1,0 +1,21 @@
+[
+  {
+    "msgOptions": [{
+        "msg": "hello",
+        "modifier": "i"
+      },
+      {
+        "msg": "hi",
+        "modifier": "i"
+      }
+    ],
+    "response": ["Hey there!", "Hi! How are you?"]
+  },
+  {
+    "msgOptions": [{
+      "msg": "69",
+      "modifier": "i"
+    }],
+    "response": ["Nice"]
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "name": "telegram-reaction-bot",
+  "version": "1.0.0",
+  "description": "Telegram Reaction bot",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bot.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "node.js"
+  ],
+  "author": "diogoscf",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "node-telegram-bot-api": "^0.40.0"
+  }
+}
