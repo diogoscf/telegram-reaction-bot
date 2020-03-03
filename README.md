@@ -8,7 +8,7 @@ A telegram bot made with `node.js` that reacts to messages containing defined st
 
 To use the bot, make sure to set up a bot with [@BotFather](https://t.me/BotFather) and paste the provided token in the `.env` file (after `TOKEN=`).
 
-Then, to define your reactions, create a `reactions.json` file where you'll provide the messages to react to and the reactions. Note that the saved string will be interpreted as a regular expression, so you may use `regex` to get the results you want. An example of formatting can be found in the `example-reactions.json file`
+Then, to define your reactions, create a `reactions.json` file where you'll provide the messages to react to and the reactions. Note that the saved string will be interpreted as a regular expression, so you may use `regex` to get the results you want. An example of formatting can be found in the `example-reactions.json` file
 
 ### Running
 
