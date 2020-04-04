@@ -6,3 +6,6 @@ reactions.json
 
 # node modules
 node_modules/
+
+# Tesseract OCR trained data
+*.traineddata

@@ -2,11 +2,13 @@
   {
     "msgOptions": [{
         "msg": "hello",
-        "modifier": "i"
+        "modifier": "i",
+        "ocr": "enabled"
       },
       {
         "msg": "hi",
-        "modifier": "i"
+        "modifier": "i",
+        "ocr": "disabled"
       }
     ],
     "response": ["Hey there!", "Hi! How are you?"]
@@ -14,7 +16,8 @@
   {
     "msgOptions": [{
       "msg": "69",
-      "modifier": "i"
+      "modifier": "i",
+      "ocr": "enabled"
     }],
     "response": ["Nice"]
   }
