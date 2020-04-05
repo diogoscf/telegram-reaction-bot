@@ -63,15 +63,18 @@ bot.on("message", (msg) => {
     bot.getFileLink(msg.photo[msg.photo.length - 1].file_id).then((link) => {
       https.get(link, (resp) => {
         resp.pipe(file)
-      })
-      tesseract.recognize(file.path)
-        .then((text) => {
-          checkText(msg, text, true)
-          fs.unlink(file.path, (err) => {
-            if (err) console.error(err);
-          })
+        resp.on("end", () => {
+          tesseract.recognize(file.path)
+            .then((text) => {
+              checkText(msg, text, true)
+              fs.unlink(file.path, (err) => {
+                if (err) console.error(err);
+              })
+            })
+            .catch((err) => console.error(err));
         })
-        .catch((err) => console.error(err));
+      })
+
     });
   }
 
